@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    display: none;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+.dialog {
+    position: absolute;
+    left: 35%;
+    top: 2%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+#main__infor{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12, 30, 59, 0.78);
+}
+
+#main__infor h1{
+    text-align: center;
+    color: black;
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-size: xx-large;
+    margin: 15px auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.font{
+    text-align: center;
+    width: 50%;
+    color: white;
+    margin: 15px auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.job_images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.job_images img{
+    width: 500px;
+    border: 1.5px solid #ccc;
+    height: 320px;
+    margin: 10px auto;
+}
+
+.main__copy{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: xx-small;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
